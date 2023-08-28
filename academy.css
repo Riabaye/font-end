@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    width: 100%;
+    max-width: 100vw;
+
+}
+
+.header{
+    width: 100%;
+    background-color: #a11e1e;
+    height: 4em;
+}
+
+.logo{
+    margin: 1em 0 0 1em;
+}
+
+.vector{
+    width: 2em;
+    margin: 0 0 30em 85%;
+}
+
+.h1{
+ font-size: 2.5em;   
+ margin: 0 0 0 0.5em;
+ font-family: 'Inter', sans-serif;
+ font-weight: 800;
+}
+
+.span{
+    color: #a11e1e;
+}
+
+.p{
+    margin: 0.8em 0 0 1.3em;
+    font-size: 1em;
+    line-height: 1.2em;
+    font-family: 'Inter', sans-serif;
+}
+
+.p2{
+
+    font-size: 2.5em;
+    font-weight: 900;
+    margin: 1.5em 0 0 0.6em;
+}
+.p2-span1{
+    text-decoration: line-through;
+}
+.p2-span2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-decoration: line-through;
+    font-size: large
+}
+
+.h2{
+    margin: 1em 1em 2em 1.3em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900; color: white;
+    border: solid;
+    background-color: #a11e1e;
+    padding: 1.2em 0 0 8em;
+    height: 2em;
+}
+
+.h3{
+    font-size: 2em;
+    margin: 0.8em 0 0 0.7em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.div{
+    background-color: rgb(255, 196, 1);
+    border: solid; border-color:  rgb(255, 196, 1);
+    height: 17.5em;
+}
+.h3{
+    color: black;
+    margin: 0.3em 2em 0 0.8em;
+    
+}
+
+.p3{
+    margin: 1em 0 2em 1.6em;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.h4{
+    color: #a11e1e;
+    font-size: 1.7em;
+    margin: 1em 0 0 0.8em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.div2{
+    border: 2.5px solid; border-color: black;
+    width: 23em; height: 20em; 
+    margin: 1em 0 0 1.3em;
+}
+
+.h5{
+    margin: 4em 0 0 0;
+    border-bottom: 2.5px solid; 
+    border-bottom-color: black;
+    width: 94%; height: 2em;
+    margin:  0 0 0 0;
+    padding-left: 0.9em;
+    padding-top: 1em;
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.p4{
+    margin: 2em 0 0 1em;
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
+}
+
+li{
+    font-family: 'Inter', sans-serif; font-size: small;
+    margin: 1em 0 0 2em;
+    line-height: 0.7em;
+    list-style-type: square; list-style-type: #a11e1e;
+    margin-bottom: 5%;
+}
+.slider{
+    width: 100%;
+    height: 27em;
+    background-color: gold;
+
+}
+img{
+    margin: 1.7em 0 0 1.5em;
+}
+
+footer{
+    background-color: black;
+    height: 16em;
+}
+nav{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 0 0 0 1.5em;
+    padding-top: 1.5em;
+}
+.li{
+    list-style-type: none;
+    line-height: 0.2em;
+    margin-left: 0.3em;
+}
+.nav2{
+    margin: -10em 0 0 17em;
+}
+i{
+    margin: 0.3em 0 0 0.1em; font-size: 1.5em;
+}
+pre{
+    color: white;
+    margin: 15em 0 0 3em;
+    font-size: x-small;  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
